@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resizable Sidebar</title>
+    <link rel="stylesheet" href="side.css">
+</head>
+<body>
+    <header>
+        <div>
+			<div class="header_div">
+                <div class="header_svg"onclick="showPhoto()">
+                    <img class ="for_svg" src="my img/icons8-guest-24.png" alt="SVG Image">
+                </div>
+				<div class="hide_box" onclick="hidePhoto()">
+                    <p>hide</p>
+                </div>
+            </div>
+        </div>
+        <ul class ="header_list">
+            <li>ONE</li>
+            <li>TWO</li>
+            <li>THREE</li>
+            <li>FOUR</li>
+        </ul>
+    </header>
+    
+
+
+
+    <div class="Flex_me">
+        <div id="sidebar" class="sidebar">
+
+
+            
+            <div class="container" id="LCM">
+                <h3 class = "js_box">Calculate LCM</h3>
+                <input type="text" size="10" id="LCM1" placeholder="Enter value 1">
+                <input type="text" size="10" id="LCM2" placeholder="Enter value 2">
+                <button onclick="Find_lcm()">Calculate</button>
+                <div id = "outputLCM"></div>
+            </div>
+
+
+            <div class="container" id="Sum">
+                <h3 class = "js_box">Calculate Sum</h3>
+                <input type="text" size="10" id="Sum1" placeholder="Enter value 1">
+                <input type="text" size="10" id="Sum2" placeholder="Enter value 2">
+                <button onclick="Sum()">Calculate</button>
+                <div id = "outputSum"></div>
+            </div>
+
+
+            <div class="container" id="Power">
+                <h3 class = "js_box">Power Raise</h3>
+                <input type="text" size="10" id="Power1" placeholder="Enter value 1">
+                <input type="text" size="10" id="Power2" placeholder="Enter value 2">
+                <button onclick="PowerRaise()">Calculate</button>
+                <div id = "outputPower"></div>
+            </div>
+
+
+            <div class="container">
+                <h3 class = "js_box">Get Password</h3>
+                <button onclick="GeneratePassword()">Generate</button>
+                <div id = "outputPassword"></div>
+            </div>
+
+
+            <div class="container">
+                <h3 class = "js_box">Occurence</h3>
+                <input type="text" size="10" id="Set" placeholder="Set of values">
+                <input type="text" size="10" id="Num" placeholder="Number to find">
+                <button onclick="countOccurrences()">Calculate</button>
+                <div id = "outputOccurence"></div>
+            </div>
+
+
+            <div class="container">
+                <h3 class = "js_box">iS Divisible by 2,3,5,9,10</h3>
+                <input type="text" size="10" id="Num_to_check" placeholder="Enter value 1">
+                <button onclick="checkDivisibility()">Calculate</button>
+                <div id = "outputDividents"></div>
+            </div>
+            
+
+            
+        </div>
+        <div class="out_of_sidebar" id="out_of_sidebar">
+			<div class="profile_image_box" id = "profile_image_box">
+                <div class="image_style">
+                    <img src="my img/завантаження (5).jpg" id="photoPopup">
+                </div>
+                <p id="textPopup">Its been a year daddy.
+                    I really really miss you.
+                    Mommy said you went to the store to get milk.
+                    Anyways, I'm failing all my classes and mommy hits me very frequently.
+                    And she changed my name to Tickle Timpson.
+                    Anyways, Daddy, I forgive you for abusing me.</p>
+			</div>
+        </div>
+    </div>
+
+
+
+
+    <div id="main-content" class="main-content">
+        Main Content
+    </div>
+    <script src="side.js"></script>
+    <script src="new.js"></script>
+</body>
+</html>
