@@ -1,0 +1,227 @@
+[
+    {
+      "id": 14,
+      "title": "Drone",
+      "imageUrl": "img/photo_1_2024-03-03_08-37-41.jpg",
+      "price": 1000,
+      "parameters": [
+
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Car",
+      "imageUrl": "img/photo_2_2024-03-03_08-37-41.jpg",
+      "price": 20000,
+      "parameters": [
+        {
+          "id": 2,
+          "name": "Fun"
+        },
+        {
+          "id": 3,
+          "name": "Work"
+        },
+        {
+          "id": 4,
+          "name": "Home"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Doorbell",
+      "imageUrl": "img/photo_3_2024-03-03_08-37-41.jpg",
+      "price": 100,
+      "parameters": [
+        {
+          "id": 1,
+          "name": "Photo"
+        },
+        {
+          "id": 4,
+          "name": "Home"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "VRset",
+      "imageUrl": "img/photo_4_2024-03-03_08-37-41.jpg",
+      "price": 300,
+      "parameters": [
+        {
+          "id": 2,
+          "name": "Fun"
+        },
+        {
+          "id": 4,
+          "name": "Home"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Airpods",
+      "imageUrl": "img/photo_5_2024-03-03_08-37-41.jpg",
+      "price": 200,
+      "parameters": [
+        {
+          "id": 2,
+          "name": "Fun"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Phone",
+      "imageUrl": "img/photo_6_2024-03-03_08-37-41.jpg",
+      "price": 1200,
+      "parameters": [
+        {
+          "id": 1,
+          "name": "Photo"
+        },
+        {
+          "id": 2,
+          "name": "Fun"
+        },
+        {
+          "id": 3,
+          "name": "Work"
+        },
+        {
+          "id": 4,
+          "name": "Home"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Watch",
+      "imageUrl": "img/photo_7_2024-03-03_08-37-41.jpg",
+      "price": 700,
+      "parameters": [
+        {
+          "id": 3,
+          "name": "Work"
+        },
+        {
+          "id": 4,
+          "name": "Home"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Laptop",
+      "imageUrl": "img/photo_8_2024-03-03_08-37-41.jpg",
+      "price": 3000,
+      "parameters": [
+        {
+          "id": 1,
+          "name": "Photo"
+        },
+        {
+          "id": 2,
+          "name": "Fun"
+        },
+        {
+          "id": 3,
+          "name": "Work"
+        },
+        {
+          "id": 4,
+          "name": "Home"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Console",
+      "imageUrl": "img/photo_9_2024-03-03_08-37-41.jpg",
+      "price": 400,
+      "parameters": [
+        {
+          "id": 2,
+          "name": "Fun"
+        },
+        {
+          "id": 4,
+          "name": "Home"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Need more?",
+      "imageUrl": "img/question_mark_with_magnifier.jpg",
+      "price": 0,
+      "parameters": [
+        {
+          "id": 1,
+          "name": "Photo"
+        },
+        {
+          "id": 2,
+          "name": "Fun"
+        },
+        {
+          "id": 3,
+          "name": "Work"
+        },
+        {
+          "id": 4,
+          "name": "Home"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Party",
+      "imageUrl": "img/Party.jpg",
+      "price": 1000,
+      "parameters": [
+        {
+          "id": 2,
+          "name": "Fun"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Home",
+      "imageUrl": "img/Home.jpg",
+      "price": 1000000,
+      "parameters": [
+        {
+          "id": 4,
+          "name": "Home"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Pen",
+      "imageUrl": "img/Pen.jpg",
+      "price": 5,
+      "parameters": [
+        {
+          "id": 3,
+          "name": "Work"
+        }
+      ]
+    },
+    {
+      "id": 0,
+      "title": "Camera",
+      "imageUrl": "img/Camera.jpg",
+      "price": 500,
+      "parameters": [
+        {
+          "id": 1,
+          "name": "Photo"
+        }
+      ]
+    }
+  ]

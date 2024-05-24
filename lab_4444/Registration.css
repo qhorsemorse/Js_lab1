@@ -1,0 +1,59 @@
+
+.login-container {
+    margin-left:20vw;
+    width: 400px;
+    height: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left:40px;
+    padding-right:40px;
+}
+
+.Registration_header {
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.Registration_label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.Registration_button {
+    width: 100%;
+    padding: 10px;
+    background-color: #b3000f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Registration_button:hover {
+    background-color: #8a000b;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+}
+
+.Change_registration{
+    font-size:15px;
+    margin-top:50px;
+}
+
+#SigninErrorMessage, #LoginErrorMessage{
+    color:red;
+    font-weight:lighter;
+    font-size: 12;
+}

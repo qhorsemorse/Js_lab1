@@ -1,0 +1,101 @@
+<body>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  
+  <div class="line"></div>
+  <div class="wrapper">
+    <header role="banner">
+      <link rel="stylesheet" type="text/css" href="Style.css">
+      <link rel="stylesheet" type="text/css" href="Products.css">
+      <link rel="stylesheet" type="text/css" href="Cart.css">
+      <link rel="stylesheet" type="text/css" href="Registration.css">
+      <nav role="navigation">
+        <h1><a href="#">Asperion</a></h1>
+        <ul class="nav-ul">
+          <img src="https://www.techweekeurope.co.uk/wp-content/uploads/2012/07/wifimountaindownload.jpg" alt="" />
+          <li onclick="Home()"><a>Home</a></li>
+                  <li onclick="Cart()">    
+            <a>
+              <div class="cart" style = "width:40px;background-color:lightgray; border-radius:30px;">
+                <i class="bi bi-cart2"></i>
+              </div>
+            </a>
+          </li>
+          <li onclick="Products()"><a>Products</a></li>
+        </ul>
+      </nav>
+
+    </header>
+    <main role="main">
+  
+      <!--your code goes here-->
+      <section class="login-container">
+        <h2 class="Registration_header">Sign Up</h2>
+        <form id="Signin-form">
+            <div class="input-group">
+              <label for="Signinemail" class="Registration_label">Email</label>
+              <input type="text" id="Signinemail" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="username" class="Registration_label">Username</label>
+                <input type="text" id="Signinusername" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password" class="Registration_label">Password</label>
+                <input type="password" id="Signinpassword" name="password" required>
+            </div>
+            <div class="input-group">
+              <label for="password" class="Registration_label">Re-enter Password</label>
+              <input type="password" id="Signinpassword2" name="password" required>
+            </div>
+        </form>
+        <button id = "LoginVerifyButton" class="Registration_button" onclick = "SigninVerifyForm()">Verify</button>
+
+        <div id = "SigninErrorMessage"></div>
+        <p class="Change_registration">Are you alredy registered? click below</p>
+        <button style="width: 100px; margin-left:110px;" class="Registration_button" onclick="Login()">Sign in</button>
+      </section>
+      <!-- your code goes here -->
+  
+      <section class="sec-boxes" role="section" >
+        <div id="ThaBox123" >
+        </div>
+        <a href="#" class="to-top">
+          ↑
+        </a>
+      </section>
+      <div class="row">
+        <div class="row">
+          <div class="logo-container">
+            <img class = "logo" src="https://i.imgur.com/oSriTuP.png" alt="Google logo" />
+          </div>
+          <div class="logo-container">
+            <img class = "logo" src="https://i.imgur.com/kRgvevC.png" alt="Apple logo" />
+          </div>
+          <div class="logo-container">
+            <img class = "logo" src="https://i.imgur.com/ZZjeIP3.png" alt="Wii logo" />
+          </div>
+          <div class="logo-container">
+            <img class = "logo" src="https://i.imgur.com/536rtCW.png" alt="Valve logo" />
+          </div>
+          <div class="logo-container">
+            <img class = "logo" src="https://i.imgur.com/VTq1c9p.png" alt="Adithya Institute of Technology logo" />
+          </div>
+          <div class="logo-container">
+            <img class = "logo" src="https://i.imgur.com/GdYoyxo.png" alt="Intel logo" />
+          </div>
+    </div>
+    </main>
+  </div>
+  <footer>
+    <nav role="navigation">
+    </nav>
+    <p class="copy">&copy; Not My Design 2014</p>
+  </footer>
+  <div class="line"></div>
+
+  <script src ="my_script.js"></script>
+  <script src="shopping.js"></script>
+  <script src ="charts.js"></script>
+  <script src ="Registration.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </body>
